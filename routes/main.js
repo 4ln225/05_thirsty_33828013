@@ -61,7 +61,7 @@ router.post("/registered", (req,res) => {
 }); 
 
 router.get("/survey", (req, res) => {
-  res.render("survey.ejs", shopData); // uses productCategories from shopData
+  res.render("survey.ejs", shopData); 
 });
 router.post("/survey", (req, res) => {
   const data = {
