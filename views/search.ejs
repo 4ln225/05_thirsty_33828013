@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <title>Search - <%= shopName %></title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Search our products at <%= shopName %></h1>
+
+    <p>This is the search page. We will add real search features later.</p>
+
+    <form action="/search_result" method="GET">
+      <input id="search_box" type="text" name="search_text">
+      <input id="search_category" type="text" name="search_category">
+      <input type="submit" value="OK" >
+    </form>
+
+    <p>
+        <a href="/">Go back to home</a>
+    </p>
+</body>
+</html>
